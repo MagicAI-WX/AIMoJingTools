@@ -1,0 +1,5 @@
+# ComfyUI-AIMoJingTools 运行依赖
+# ComfyUI 官方环境通常已自带这些核心库，此处声明便于 ComfyUI Manager 自动检测与安装
+torch>=2.0.0
+numpy>=1.24.0
+Pillow>=9.5.0

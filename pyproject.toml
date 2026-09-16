@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-aimojingtools"
+description = "ComfyUI 自定义节点：图像加载与遮罩输出（支持上游图像优先、按需遮罩提取与上游图像节点内自动预览）"
+version = "1.1.0"
+license = { file = "LICENSE" }
+dependencies = ["torch", "numpy", "Pillow"]
+readme = "README.md"
+
+[project.urls]
+Repository = "https://github.com/your-username/ComfyUI-AIMoJingTools"
+
+[tool.comfy]
+PublisherId = "aimojing"
+DisplayName = "ComfyUI-AIMoJingTools"
+Icon = ""
